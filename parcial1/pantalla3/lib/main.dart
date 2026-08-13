@@ -13,7 +13,7 @@ Widget tarjetaHero({
     required double pad,
     required double marg,
     required String title,
-    required String accion,
+    required String action,
     required Color color,
     required List<Widget> hijos
 }){
@@ -33,7 +33,7 @@ Widget tarjetaHero({
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(title, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
-            Text(accion, style: const TextStyle(fontSize: 13, color: kPrimary, fontWeight: FontWeight.w600)),
+            Text(action, style: const TextStyle(fontSize: 13, color: kPrimary, fontWeight: FontWeight.w600)),
           ],
         ),
         const SizedBox(height: 14),
@@ -128,7 +128,7 @@ class MyApp extends StatelessWidget {
                     pad: 20,
                     marg: 10, 
                    title:'Personal info',
-                   accion: 'Editar', 
+                   action: 'Editar', 
                    color:Color.fromARGB(255, 42, 41, 38), 
                     hijos: [
                       filaInfo(icon: Icons.person, label: 'Nombre', valor: 'Christian Ramirez'),
@@ -148,7 +148,7 @@ class MyApp extends StatelessWidget {
                     pad: 20,
                     marg: 10, 
                    title:'Account info',
-                   accion: 'Editar', 
+                   action: 'Editar', 
                    color:Color.fromARGB(255, 42, 41, 38), 
                     hijos: [
                       filaInfo(icon: Icons.account_balance, label: 'Banco', valor: 'Banco de Guatemala'),
