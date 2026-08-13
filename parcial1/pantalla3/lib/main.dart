@@ -131,8 +131,8 @@ class MyApp extends StatelessWidget {
                    accion: 'Editar', 
                    color:Color.fromARGB(255, 42, 41, 38), 
                     hijos: [
-                      filaInfo(icon: Icons.person, label: 'Nombre', valor: 'Juan Perez'),
-                      filaInfo(icon: Icons.email, label: 'Correo', valor: 'juanperez@gmail.com'),
+                      filaInfo(icon: Icons.person, label: 'Nombre', valor: 'Christian Ramirez'),
+                      filaInfo(icon: Icons.email, label: 'Correo', valor: 'christianramirez@gmail.com'),
                       filaInfo(icon: Icons.phone, label: 'Telefono', valor: '+502 1234 5678'),
                       filaInfo(icon: Icons.location_on, label: 'Direccion', valor: 'Ciudad de Guatemala, Guatemala'),
                     ]
