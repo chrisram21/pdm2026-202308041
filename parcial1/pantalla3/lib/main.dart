@@ -38,6 +38,7 @@ Widget tarjetaHero({
         ),
         const SizedBox(height: 14),
         ...hijos,
+        //Solo como aclaracion este apartado de ...hijos lo aprendi a usar despues de la ultima entrega pq queria ver como hacer tablas que fueran mas facil de usar
       ],
     ),
     ),
